@@ -103,3 +103,40 @@ body{
     color: #F53455;
     font-weight: 700;
 }
+
+#response-sample{
+
+    display: flex;
+    margin: 70px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.response-div{
+    width: 33%;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.response-header{
+    font-size: 45px;
+}
+
+footer{
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+}
+
+footer h1{
+    color: white;
+    font-size: 40px;
+}
+
+footer h3{
+    color: white;
+}
+
+#heaven-color{
+    color: #dd8794;
+}
