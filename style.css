@@ -128,7 +128,7 @@ header{
     border-radius: 30px;   
     margin: 50px;    
     text-align: center;
-    padding: 15px 10px 25px 10px;
+    padding: 15px 10px 30px 10px;
     box-shadow: 10px 10px 40px gray;    
 }
 
@@ -148,22 +148,20 @@ header{
     text-align: center;
 }
 
-
-
-#response-sample{
+#follower-sample{
     display: flex;
     margin: 70px;
     border-radius: 30px;
     box-shadow: 10px 10px 40px gray;
 }
 
-.response-div{
+.follower-div{
     width: 33%;
     padding: 40px 100px;
     text-align: center;
 }
 
-.response-header{
+.follower-header{
     font-size: 45px;
 }
 
