@@ -2,25 +2,65 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    color: rgb(24, 23, 23);
 }
 
-#head-banner{
+header{   
+    display: flex;   
+}
+
+#logo-div{
+    width: 50%;   
+    margin-left: 20px;
+}
+
+#menu-div{
+    width: 50%;  
+    margin-top: 45px;
+    margin-right: 10px; 
+    text-align: right;    
+}
+
+
+.menu-item{
+    color: red;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30;
+    font-weight: 700;
+}
+
+
+
+#logo{
+    font-family: 'Cinzel Decorative', cursive;   
+}
+
+#logo-food{
+    color: #fc2c4f;
+}
+
+#logo-heaven{
+    color: #EB6076;
+}
+
+
+#head-banner{ 
     display: flex;
-    margin-top: 100px;
     margin-bottom: 30px;
 }
 
-#div-1{
+#welcome-messege{
     width: 50%;
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top:  50px;
 }
 
-#div-2{
+#intro-img{
     width: 50%;
 }
 
-#div-2 img{
+#intro-img img{
     width: 90%;
 }
 
@@ -41,9 +81,8 @@ body{
     font-weight: 600;
     background-color: #F53455;
     padding: 15px 20px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-image: linear-gradient(to left, #D61E25, #dd8794);
-
 }
 
 #middle-banner{
@@ -53,22 +92,22 @@ body{
     background-repeat: repeat-y;    
 }
 
-#div-3{
+#chef-photo{
     width: 50%;    
 }
 
-#div-3 img{
+#chef-photo img{
     width: 50%;
     padding-left: 200px;
-    padding-top: 10px;
+    padding-top: 60px;
 }
 
-#div-4{
+#about-chef{
     margin-left: 100px;
     width: 50%;
     text-align: justify;
     padding-right: 200px;
-    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #recipies-heading{
@@ -81,17 +120,16 @@ body{
     display: flex;
     margin-right: 30px;
     margin-left: 30px;
+    
 }
 
 .recipe-items{
     width: 33%;
     border-radius: 30px;   
-    margin: 50px;
-    
+    margin: 50px;    
     text-align: center;
     padding: 15px 10px 25px 10px;
-    box-shadow: 10px 10px 40px gray;
-    
+    box-shadow: 10px 10px 40px gray;    
 }
 
 #recipies img{
@@ -104,8 +142,15 @@ body{
     font-weight: 700;
 }
 
-#response-sample{
+#see-more-div{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 
+
+
+#response-sample{
     display: flex;
     margin: 70px;
     border-radius: 30px;
@@ -129,6 +174,7 @@ footer{
 }
 
 footer h1{
+    font-family: 'Cinzel Decorative', cursive;
     color: white;
     font-size: 40px;
 }
@@ -138,5 +184,9 @@ footer h3{
 }
 
 #heaven-color{
-    color: #dd8794;
+    color: #EB6076
+}
+
+footer p{
+    color: white;
 }
